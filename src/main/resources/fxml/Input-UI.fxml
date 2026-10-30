@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" spacing="10.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" spacing="10.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerK">
    <padding>
       <Insets bottom="28.0" left="28.0" right="28.0" top="28.0" />
    </padding>
@@ -20,13 +20,13 @@
       </Label>
       <Label prefHeight="0.0" prefWidth="286.0" text="Isi data, Pilih jenis kelamin, lalu hitung BMI." textFill="#6b7280d9" />
       <Label prefHeight="18.0" prefWidth="258.0" text="Nama" />
-      <TextField promptText="Contoh: Asep" />
+      <TextField fx:id="txtNama" promptText="Contoh: Asep" />
       <Label prefHeight="0.0" prefWidth="286.0" text="Jenis Kelamin" />
-      <ComboBox prefHeight="27.0" prefWidth="362.0" />
+      <ComboBox fx:id="cbJenisKelamin" prefHeight="27.0" prefWidth="362.0" />
       <Label prefHeight="18.0" prefWidth="361.0" text="Tinggi Badan" />
-      <TextField promptText="Contoh: 175" />
+      <TextField fx:id="txtTinggi" promptText="Contoh: 175" />
       <Label prefHeight="18.0" prefWidth="575.0" text="Berat Badan" />
-      <TextField promptText="Contoh: 65" />
-      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="453.0" text="Hitung" />
+      <TextField fx:id="txtBerat" promptText="Contoh: 65" />
+      <Button mnemonicParsing="false" onAction="#handleHitungButton" prefHeight="31.0" prefWidth="453.0" text="Hitung" />
    </children>
 </VBox>

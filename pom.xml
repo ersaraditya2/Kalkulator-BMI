@@ -31,9 +31,10 @@
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>${javafx.maven.plugin.version}</version>
+                <version>0.0.8</version>
                 <configuration>
-                    <mainClass>${exec.mainClass}</mainClass>
+                    <!-- Ubah baris ini menjadi Main.MainAPP -->
+                    <mainClass>Main.MainAPP</mainClass>
                 </configuration>
             </plugin>
         </plugins>
