@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.kalkulatormbi;
+package Main;
 
 /**
  *
  * @author ersaraditya2
  */
-public class KalkulatorMBI {
+public class MainAPP {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
