@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" spacing="10.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <padding>
+      <Insets bottom="28.0" left="28.0" right="28.0" top="28.0" />
+   </padding>
+   <children>
+      <Label prefHeight="0.0" prefWidth="157.0" text="Kalkulator BMI">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label prefHeight="0.0" prefWidth="286.0" text="Isi data, Pilih jenis kelamin, lalu hitung BMI." textFill="#6b7280d9" />
+      <Label prefHeight="18.0" prefWidth="258.0" text="Nama" />
+      <TextField promptText="Contoh: Asep" />
+      <Label prefHeight="0.0" prefWidth="286.0" text="Jenis Kelamin" />
+      <ComboBox prefHeight="27.0" prefWidth="362.0" />
+      <Label prefHeight="18.0" prefWidth="361.0" text="Tinggi Badan" />
+      <TextField promptText="Contoh: 175" />
+      <Label prefHeight="18.0" prefWidth="575.0" text="Berat Badan" />
+      <TextField promptText="Contoh: 65" />
+      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="453.0" text="Hitung" />
+   </children>
+</VBox>
