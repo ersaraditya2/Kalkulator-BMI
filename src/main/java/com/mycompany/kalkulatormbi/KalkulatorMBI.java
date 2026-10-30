@@ -6,7 +6,7 @@ package com.mycompany.kalkulatormbi;
 
 /**
  *
- * @author Rangga
+ * @author ersaraditya2
  */
 public class KalkulatorMBI {
 
